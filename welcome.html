@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title>Alternatifa Notion</title>
+    <link rel="stylesheet" href="cssText/welcome.css">
+</head>
+<body>
+    <h1 id="title" class="typewriter">Selamat datang para Alterian</h1>
+    <div class="p-container">
+        <p id="message" class="typewriter">Silakan berjuang sampai di titik terakhir!</p>
+    </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            // Start the typing animation
+            document.body.classList.add("start-typing");
+
+            // Set a timeout to show the paragraph after the h1 animation
+            setTimeout(function() {
+                document.getElementById('message').classList.add('show');
+            }, 4200); // Adjust delay to match h1 typing animation duration
+        });
+    </script>
+</body>
+</html>
