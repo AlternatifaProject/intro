@@ -1,152 +1,14 @@
-/* styles.css */
-
-/*
 body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 60vh;
     background-color: #ffffff;
     margin: 0;
     font-family: 'Press Start 2P', cursive;
 }
 
-
-h1{
-    font-family: 'Press Start 2P',  cursive;
-    font-size: 24px;
-}
-
-p{
-
-    font-family: 'Press Start 2P',  cursive;
-    font-size: 20px;
-}
-
-.typewriter {
-    overflow: hidden;
-    border-right: .15em solid rgb(0, 0, 0); 
-    white-space: nowrap;
-    margin: 0 auto; 
-    letter-spacing: .40em;
-    animation: 
-        typing 4s steps(40, end),
-        blink-caret .75s step-end infinite;
-}
-
-p.typewriter {
-    animation: 
-        typingp 10s steps(100, end) 4s,
-        blink-caret .75s step-end infinite;
-}
-
-
-@keyframes typing {
-    from { width: 0 }
-    to { width: 66% }
-}
-
-@keyframes typingp{
-    from{ width: 0 }
-    to { width: 82% }
-}
-
-
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(0, 0, 0) }
-}
-*/
-
-/*
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #ffffff;
-    margin: 0;
-    font-family: 'Press Start 2P', cursive;
-}
-
-.p-container{
-    display: flex;
-    margin-top: 50px;
-    width: 100%;
-    align-items: center;
-}
-
-h1 {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 24px;
-}
-
-p {
-    font-family: 'Press Start 2P', cursive;
-    font-size: 20px;
-}
-
-.typewriter {
-    overflow: hidden;
-    border-right: .15em solid rgb(0, 0, 0); 
-    white-space: nowrap;
-    margin: 0 auto; 
-    letter-spacing: .40em;
-    animation: 
-        typing 4s steps(40, end) forwards,
-        blink-caret .75s step-end infinite;
-    visibility: hidden;
-}
-
-p.typewriter {
-    visibility: hidden; 
-    overflow: hidden;
-    border-right: .15em solid rgb(0, 0, 0); 
-    white-space: nowrap;
-    margin: 0 auto; 
-    letter-spacing: .40em;
-    animation: 
-        typingp 6s steps(60, end) 4s forwards, 
-        blink-caret .75s step-end infinite;
-}
-
-.start-typing .typewriter {
-    visibility: visible; 
-}
-
-
-.start-typing p.p-container {
-    visibility: visible; 
-}
-
-@keyframes typing {
-    from { width: 0; }
-    to { width: 65%; }
-}
-
-@keyframes typingp {
-    from { width: 0; }
-    to { width: 81%; }
-}
-
-@keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: rgb(0, 0, 0) }
-}
-*/
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #ffffff;
-    margin: 0;
-    font-family: 'Press Start 2P', cursive;
-}
 
 .p-container {
     display: flex;
@@ -157,12 +19,12 @@ body {
 
 h1 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 24px;
+    font-size: 18px;
 }
 
 p {
     font-family: 'Press Start 2P', cursive;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 .typewriter {
@@ -183,12 +45,12 @@ p {
 
 @keyframes typing {
     from { width: 0; }
-    to { width: 65%; }
+    to { width: 49%; }
 }
 
 @keyframes typingp {
     from { width: 0; }
-    to { width: 81%; }
+    to { width: 57%; }
 }
 
 @keyframes blink-caret {
