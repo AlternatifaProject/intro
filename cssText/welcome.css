@@ -1,3 +1,4 @@
+
 body {
     display: flex;
     flex-direction: column;
@@ -9,22 +10,25 @@ body {
     font-family: 'Press Start 2P', cursive;
 }
 
-
+.h1-container{
+    /*width: 100%;*/
+    align-items: center;
+}
 .p-container {
     display: flex;
     margin-top: 50px;
-    width: 100%;
+    /*width: 100%;*/
     align-items: center;
 }
 
 h1 {
     font-family: 'Press Start 2P', cursive;
-    font-size: 18px;
+    /*font-size: 10px;*/
 }
 
 p {
     font-family: 'Press Start 2P', cursive;
-    font-size: 14px;
+    /*font-size: 6px;*/
 }
 
 .typewriter {
@@ -32,7 +36,7 @@ p {
     border-right: .15em solid rgb(0, 0, 0); 
     white-space: nowrap;
     margin: 0 auto; 
-    letter-spacing: .40em;
+    /*letter-spacing: .40em;*/
     visibility: hidden; 
 }
 
@@ -45,12 +49,12 @@ p {
 
 @keyframes typing {
     from { width: 0; }
-    to { width: 49%; }
+    to { width: 100%; }
 }
 
 @keyframes typingp {
     from { width: 0; }
-    to { width: 57%; }
+    to { width: 100%; }
 }
 
 @keyframes blink-caret {

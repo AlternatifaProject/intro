@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alternatifa Medsos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="cssText/social.css">
+</head>
+<body>
+    <div class="wrapper">
+
+        <!-- Start instagram Icon -->
+        <div id="instagram" onclick="navigate(this.id)" class="social">
+            <span class="icon instagram"><i class="fab fa-instagram"></i></span>
+        </div>
+        <!-- End instagram Icon -->
+
+        <!-- Start twitter Icon -->
+        <div id="twitter" onclick="navigate(this.id)" class="social">
+            <span class="icon twitter"><i class="fab fa-twitter"></i></span>
+        </div>
+        <!-- End twitter Icon -->
+
+        <!-- Start tiktok Icon -->
+        <div id="tiktok" onclick="navigate(this.id)" class="social">
+            <span class="icon tiktok"><i class="fab fa-tiktok"></i></span>
+        </div>
+        <!-- End tiktok Icon -->
+
+        <!-- Start youtube Icon -->
+        <div id="youtube" onclick="navigate(this.id)" class="social">
+            <span class="icon youtube"><i class="fab fa-youtube"></i></span>
+        </div>
+        <!-- End youtube Icon -->
+
+        <!-- Start whatsapp Icon -->
+        <div id="whatsapp" onclick="navigate(this.id)" class="social">
+            <span class="icon whatsa"><i class="fab fa-whatsapp"></i></span>
+        </div>
+        <!-- End whatsapp Icon -->
+    </div>
+
+
+
+
+    <script>
+        function navigate(id) {
+
+        if (id === "instagram") 
+          window.open("https://www.instagram.com/alternatifa.project", '_blank').focus(); //Add the url to your instagram account
+        
+        else if (id === "twitter") {
+          window.open("https://x.com/AlternatifaP", '_blank').focus(); //Add the url to your pinterest account
+        }
+        else if (id === "tiktok") {
+          window.open("https://www.tiktok.com/@alternatifaproject", '_blank').focus(); //Add the url to your tiktok account
+        }
+        else if (id === "youtube") {
+          window.open("https://www.youtube.com/@alternatifa.project4259", '_blank').focus(); //Add the url to your youtube account
+        }
+        else if (id === "whatsapp") {
+          window.open("https://whatsapp.com/channel/0029VabbXqAADTOIoFwtbb0S", '_blank').focus(); //Add the url to your telegram account
+        }
+    }
+
+    </script>
+
+
+
+</body>
+
+</html>

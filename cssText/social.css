@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    font-family: "Poppins", sans-serif;
+    place-items: center;
+}
+
+.wrapper {
+    padding-top: 10px;
+    display: inline-flex;
+
+}
+
+.icon {
+  /* Change the icon size here */
+    font-size: 2em;
+    /* Change the icons colours here*/
+    color: #7a7a7a
+}
+
+.instagram:hover {
+    color: rgb(241, 102, 217);
+}
+
+.twitter:hover {
+    color: #26a7de;
+}
+
+.tiktok:hover {
+    color: #FE2C55;
+}
+
+.youtube:hover {
+    color: #FF0000;
+}
+
+.whatsapp:hover {
+    color: #59ce72;
+}
+
+.social {
+    /*position: relative;*/
+    margin: 10px;
+    cursor: pointer;
+}
