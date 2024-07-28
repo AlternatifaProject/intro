@@ -16,6 +16,9 @@
         font-size: 2vw; /* Responsive font size using viewport width */
         letter-spacing: .1em;
     }
+    .wrapper{
+        size: 1200vw;
+    }
 }
 
 /* Medium Devices (Tablets, 768px to 1023px) */
@@ -33,6 +36,10 @@
     p {
         font-size: 2vw; /* Adjusting font size for medium devices */
         letter-spacing: .1em;
+    }
+
+    .wrapper{
+        size: 1200vw;
     }
 }
 
@@ -52,6 +59,10 @@
         font-size: 2vw; /* Adjusting font size for small devices */
         letter-spacing: .1em;
     }
+
+    .wrapper{
+        size: 1200vw;
+    }
 }
 
 /* Extra Small Devices (Small Phones, 375px to 575px) */
@@ -70,6 +81,10 @@
         font-size: 2vw; /* Adjusting font size for extra small devices */
         letter-spacing: .1em;
     }
+
+    .wrapper{
+        size: 1200vw;
+    }
 }
 
 /* Ultra Small Devices (Very Small Phones, below 375px) */
@@ -87,5 +102,9 @@
     p {
         font-size: 2vw; /* Adjusting font size for very small devices */
         letter-spacing: .1em;
+    }
+
+    .wrapper{
+        size: 1200vw;
     }
 }

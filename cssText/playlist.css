@@ -1,0 +1,9 @@
+body {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 5px;
+}
+
+pl-page-container{
+    display: inline-block;
+    block-size: 100px;
+}

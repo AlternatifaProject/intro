@@ -39,15 +39,33 @@ p {
     /*letter-spacing: .40em;*/
     visibility: hidden; 
 }
+.typewriter1 {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto; 
+    /*letter-spacing: .40em;*/
+    visibility: hidden; 
+}
 
-.show {
-    animation:  typingp 4s steps(40, end) forwards, 
+.show-h1 {
+    animation: typing 4s steps(40, end) forwards,
+                blink-caret .75s step-end infinite,  
+                hideBorder 4s forwards;
+}
+.show-p {
+    animation:  typingp 5s steps(50, end) forwards, 
                 blink-caret .75s step-end infinite;
     visibility: visible; 
     visibility: visible; 
 }
 
+@keyframes hideBorder{
+    from { border-right: .15em solid rgb(0, 0, 0); }
+    to { border-right: 0; }
+}
+
 @keyframes typing {
+    from, to { border-right: .15em solid rgb(0, 0, 0)}
     from { width: 0; }
     to { width: 100%; }
 }
@@ -59,13 +77,12 @@ p {
 
 @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: rgb(0, 0, 0) }
+    50% { border-color: rgb(0, 0, 0); }
 }
 
 /* Animation for h1 */
 .start-typing #title {
-    animation: typing 4s steps(40, end) forwards,
-                blink-caret .75s step-end infinite;
+    animation: typing 4s steps(40, end);
     visibility: visible; /* Ensure the title is visible when animation starts */
 }
 

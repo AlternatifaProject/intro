@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="h1-container">
-    <h1 id="title" class="typewriter">Selamat datang para Alterian</h1>
+    <h1 id="title" class="typewriter1">Selamat datang para Alterian</h1>
     </div>
     <div class="p-container">
         <p id="message" class="typewriter">Silakan berjuang sampai di titik terakhir!</p>
@@ -18,11 +18,12 @@
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             // Start the typing animation
-            document.body.classList.add("start-typing");
+            document.body.classList.add('start-typing');
+            document.getElementById('title').classList.add('show-h1')
 
             // Set a timeout to show the paragraph after the h1 animation
             setTimeout(function() {
-                document.getElementById('message').classList.add('show');
+                document.getElementById('message').classList.add('show-p');
             }, 4200); // Adjust delay to match h1 typing animation duration
         });
     </script>
