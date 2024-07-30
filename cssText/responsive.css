@@ -16,9 +16,9 @@
         font-size: 2vw; /* Responsive font size using viewport width */
         letter-spacing: .1em;
     }
-    .wrapper{
+    /* .wrapper{
         size: 1200vw;
-    }
+    } */
 }
 
 /* Medium Devices (Tablets, 768px to 1023px) */
@@ -38,9 +38,9 @@
         letter-spacing: .1em;
     }
 
-    .wrapper{
+    /* .wrapper{
         size: 1200vw;
-    }
+    } */
 }
 
 /* Small Devices (Large Phones, 576px to 767px) */
@@ -60,9 +60,9 @@
         letter-spacing: .1em;
     }
 
-    .wrapper{
+    /* .wrapper{
         size: 1200vw;
-    }
+    } */
 }
 
 /* Extra Small Devices (Small Phones, 375px to 575px) */
@@ -82,9 +82,9 @@
         letter-spacing: .1em;
     }
 
-    .wrapper{
+    /* .wrapper{
         size: 1200vw;
-    }
+    } */
 }
 
 /* Ultra Small Devices (Very Small Phones, below 375px) */
@@ -104,7 +104,8 @@
         letter-spacing: .1em;
     }
 
+    /*
     .wrapper{
         size: 1200vw;
-    }
+    }*/
 }

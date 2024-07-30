@@ -1,18 +1,28 @@
 body {
     font-family: 'Press Start 2P', cursive;
-    display: flex;
 
 }
 
-.pl-page-container{
+/* .pl-page-container{
     width: 1920px;
-    height: 1290px; /* Tentukan tinggi kontainer */
+    height: 1290px; 
     position: relative;
-    overflow: hidden; /* Sembunyikan bagian yang dipotong */
+    overflow: hidden; 
 }
 .pl-page-content{
     width: 100%;
     height: 100%;
     background-color: lightblue;
-    clip-path: inset(0 0 50px 0); /* Potong 50px dari bawah */
-}
+    clip-path: inset(0 0 50px 0); 
+} */
+
+
+/* Responsive Website Design */
+
+/* @media (min-width: 1020px){
+    .pl-page-container{
+        max-width: 1920px;
+    }
+
+
+} */
